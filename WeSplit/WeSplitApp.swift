@@ -1,8 +1,8 @@
 //
-//  WeSplitApp.swift
+//  UnitConversions.swift
 //  WeSplit
 //
-//  Created by 刘光曙 on 2022/2/8.
+//  Created by 刘光曙 on 2022/2/14.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ import SwiftUI
 struct WeSplitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack{
+                UnitConversionsView()
+            }
         }
     }
 }

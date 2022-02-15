@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WeSplitView: View {
     @State private var checkAmout = 0.0
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 20
@@ -84,10 +84,10 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WeSplitView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack{
-            ContentView()
+            WeSplitView()
         }
     }
 }
